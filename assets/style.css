@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cabin', sans-serif;
+    background-color: whitesmoke;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+    border-radius: 0;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(blue, whitesmoke);
+
+}
+
+ .btn {
+     margin-top: 30px;
+
+ }
