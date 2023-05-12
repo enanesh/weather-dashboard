@@ -9,7 +9,7 @@ var lat = "";
 //Saves the user input into localstorage 
 
 function SaveInput() {
-    document.getElementById('button').addEventListener("click", function (e) {
+    document.getElementById("button").addEventListener("click", function (e) {
         e.preventDefault();
         var city = document.getElementById("search-input").value;
         var item = JSON.parse(localStorage.getItem("cities"));
